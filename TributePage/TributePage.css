@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+#main {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2a2a2a;
+  margin-bottom: 1.5rem;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+  margin-top: 0.75rem;
+  font-style: italic;
+  color: #555;
+}
+
+#tribute-info {
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+#tribute-link {
+  display: inline-block;
+  text-align: center;
+  background-color: #0057b7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #003f88;
+}
+
+@media (max-width: 600px) {
+  #main {
+    padding: 1rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  #tribute-info {
+    font-size: 1rem;
+  }
+}
